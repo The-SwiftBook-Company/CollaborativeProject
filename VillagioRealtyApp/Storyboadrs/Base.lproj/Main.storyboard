@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Show Case View Controller-->
+        <!--Villagio-->
         <scene sceneID="Ipd-yN-1zj">
             <objects>
                 <tableViewController id="aXs-yI-xlk" customClass="ShowCaseViewController" customModule="VillagioRealtyApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -70,7 +70,7 @@
                             <outlet property="delegate" destination="aXs-yI-xlk" id="Yqe-mz-7Nv"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="BVo-UL-8Fe"/>
+                    <navigationItem key="navigationItem" title="Villagio" id="BVo-UL-8Fe"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9KW-t4-OGS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -374,6 +374,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="gCq-jD-ybk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <navigationBarAppearance key="standardAppearance"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
