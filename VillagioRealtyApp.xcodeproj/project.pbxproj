@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C9C40F828CE06F900CE5B1E /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9C40F428CE06F900CE5B1E /* ChatViewController.swift */; };
+		5C9C40F928CE06F900CE5B1E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9C40F528CE06F900CE5B1E /* LoginViewController.swift */; };
+		5C9C40FA28CE06F900CE5B1E /* ChatVC+TableViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9C40F628CE06F900CE5B1E /* ChatVC+TableViewDelegates.swift */; };
+		5C9C40FB28CE06F900CE5B1E /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9C40F728CE06F900CE5B1E /* MessageCell.swift */; };
+		5C9C40FD28CE071000CE5B1E /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9C40FC28CE071000CE5B1E /* Message.swift */; };
 		B772A8E628C7CDA000D118BE /* HouseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B772A8E528C7CDA000D118BE /* HouseModel.swift */; };
 		B772A8E928C7E83800D118BE /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B772A8E828C7E83800D118BE /* CustomTableViewCell.swift */; };
 		B7CA42D928C7BCF4005AA76B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CA42D828C7BCF4005AA76B /* AppDelegate.swift */; };
@@ -19,6 +24,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C9C40F428CE06F900CE5B1E /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		5C9C40F528CE06F900CE5B1E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5C9C40F628CE06F900CE5B1E /* ChatVC+TableViewDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ChatVC+TableViewDelegates.swift"; sourceTree = "<group>"; };
+		5C9C40F728CE06F900CE5B1E /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		5C9C40FC28CE071000CE5B1E /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		B772A8E528C7CDA000D118BE /* HouseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseModel.swift; sourceTree = "<group>"; };
 		B772A8E828C7E83800D118BE /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		B7CA42D528C7BCF4005AA76B /* VillagioRealtyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VillagioRealtyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,9 +53,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C9C40F328CE06F900CE5B1E /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				5C9C40F428CE06F900CE5B1E /* ChatViewController.swift */,
+				5C9C40F528CE06F900CE5B1E /* LoginViewController.swift */,
+				5C9C40F628CE06F900CE5B1E /* ChatVC+TableViewDelegates.swift */,
+				5C9C40F728CE06F900CE5B1E /* MessageCell.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
 		B772A8E728C7CDA700D118BE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5C9C40FC28CE071000CE5B1E /* Message.swift */,
 				B772A8E528C7CDA000D118BE /* HouseModel.swift */,
 			);
 			path = Models;
@@ -101,6 +123,7 @@
 		B7CA42EE28C7C8B3005AA76B /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				5C9C40F328CE06F900CE5B1E /* Chat */,
 				B7CA42DC28C7BCF4005AA76B /* ShowCaseViewController.swift */,
 				FDB408C528CB381E00F12DB6 /* HouseDetailViewController.swift */,
 				B772A8E828C7E83800D118BE /* CustomTableViewCell.swift */,
@@ -180,10 +203,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B772A8E628C7CDA000D118BE /* HouseModel.swift in Sources */,
+				5C9C40FB28CE06F900CE5B1E /* MessageCell.swift in Sources */,
 				B772A8E928C7E83800D118BE /* CustomTableViewCell.swift in Sources */,
 				FDB408C628CB381E00F12DB6 /* HouseDetailViewController.swift in Sources */,
+				5C9C40F828CE06F900CE5B1E /* ChatViewController.swift in Sources */,
+				5C9C40F928CE06F900CE5B1E /* LoginViewController.swift in Sources */,
+				5C9C40FD28CE071000CE5B1E /* Message.swift in Sources */,
 				B7CA42DD28C7BCF4005AA76B /* ShowCaseViewController.swift in Sources */,
 				B7CA42D928C7BCF4005AA76B /* AppDelegate.swift in Sources */,
+				5C9C40FA28CE06F900CE5B1E /* ChatVC+TableViewDelegates.swift in Sources */,
 				B7CA42DB28C7BCF4005AA76B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

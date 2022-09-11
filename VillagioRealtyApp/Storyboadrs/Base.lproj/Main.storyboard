@@ -76,6 +76,21 @@
             </objects>
             <point key="canvasLocation" x="2215" y="-6"/>
         </scene>
+        <!--Chat View Controller-->
+        <scene sceneID="k4O-AG-aBk">
+            <objects>
+                <viewController id="vDA-Ek-qi8" customClass="ChatViewController" customModule="VillagioRealtyApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bhB-aB-VyS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Oym-kx-Owy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ydv-zH-H0f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2214" y="698"/>
+        </scene>
         <!--House Detail View Controller-->
         <scene sceneID="z9e-jk-lx8">
             <objects>
