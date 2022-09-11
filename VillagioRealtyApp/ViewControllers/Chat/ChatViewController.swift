@@ -9,10 +9,11 @@ final class ChatViewController: UIViewController, UITableViewDelegate, UITableVi
                                         Message(sender: "Seller", message: "Выслал Вам подборку домов"),
                                         Message(sender: "Buyer", message: "Спасибо, изучу"),
                                         Message(sender: "Buyer", message: "Интересный дом из клееного бруса, сколько спален?"),
-                                        Message(sender: "Buyer", message: "2 на первом этаже и 3 на втором")]
+                                        Message(sender: "Seller", message: "2 на первом этаже и 3 на втором")]
     
     private let chatTableView: UITableView = {
         let view = UITableView()
+        view.backgroundColor = .white
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
@@ -51,7 +52,6 @@ final class ChatViewController: UIViewController, UITableViewDelegate, UITableVi
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor(red: 0.99, green: 0.98, blue: 0.96, alpha: 1.00)
         configureUI()
         setupConstaints()
         configureChatTableView()
@@ -61,6 +61,7 @@ final class ChatViewController: UIViewController, UITableViewDelegate, UITableVi
         if let messageBody = messageTextField.text {
             let newMessage = Message(sender: "Buyer", message: messageBody)
             messages.append(newMessage)
+            messageTextField.text = ""
             DispatchQueue.main.async {
                 self.chatTableView.reloadData()
             }

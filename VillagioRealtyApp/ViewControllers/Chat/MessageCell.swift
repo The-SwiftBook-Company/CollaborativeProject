@@ -17,18 +17,7 @@ final class MessageCell: UITableViewCell {
     
     private lazy var messageLabel: UILabel = {
         let view = UILabel()
-        view.textAlignment = .left
         view.numberOfLines = 0
-        view.sizeToFit()
-        return view
-    }()
-    
-    private let timeLabel: UILabel = {
-        let view = UILabel()
-        view.textColor = .lightGray
-        view.textAlignment = .right
-        view.numberOfLines = 1
-        view.font = .systemFont(ofSize: 12, weight: .regular)
         view.sizeToFit()
         return view
     }()
@@ -50,7 +39,7 @@ final class MessageCell: UITableViewCell {
         backgroundColor = .clear
         addSubview(verticalStackView)
         setup(stackView: verticalStackView,
-              arrangedSubview: messageLabel, timeLabel)
+              arrangedSubview: messageLabel)
     }
     
     private func setupConstraints(isMyMessage: Bool) {
@@ -58,7 +47,7 @@ final class MessageCell: UITableViewCell {
         verticalStackView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -2).isActive = true
         
         if isMyMessage {
-            verticalStackView.leadingAnchor.constraint(lessThanOrEqualTo: leadingAnchor, constant: 10).isActive = true
+            verticalStackView.leadingAnchor.constraint(greaterThanOrEqualTo: leadingAnchor, constant: 10).isActive = true
             verticalStackView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -10).isActive = true
         } else {
             verticalStackView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 10).isActive = true
@@ -69,7 +58,8 @@ final class MessageCell: UITableViewCell {
     internal func configureCell(message: String, isMyMessage: Bool) {
         setupConstraints(isMyMessage: isMyMessage)
         messageLabel.text = message
-        verticalStackView.backgroundColor = isMyMessage ? .blue : .white
+        messageLabel.textAlignment = isMyMessage ? .right : .left
+        verticalStackView.backgroundColor = isMyMessage ? .blue : .systemGray6
         messageLabel.textColor = isMyMessage ? .white : .black
     }
     

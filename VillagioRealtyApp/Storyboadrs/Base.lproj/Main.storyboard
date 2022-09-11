@@ -76,7 +76,7 @@
             </objects>
             <point key="canvasLocation" x="2215" y="-6"/>
         </scene>
-        <!--Chat View Controller-->
+        <!--Чат-->
         <scene sceneID="k4O-AG-aBk">
             <objects>
                 <viewController id="vDA-Ek-qi8" customClass="ChatViewController" customModule="VillagioRealtyApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -86,10 +86,12 @@
                         <viewLayoutGuide key="safeArea" id="Oym-kx-Owy"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Чат" image="message" catalog="system" id="zSe-kK-dUx"/>
+                    <navigationItem key="navigationItem" id="kYT-t9-ELx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ydv-zH-H0f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2214" y="698"/>
+            <point key="canvasLocation" x="1534" y="744"/>
         </scene>
         <!--House Detail View Controller-->
         <scene sceneID="z9e-jk-lx8">
@@ -374,6 +376,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="yV8-An-wTR" kind="relationship" relationship="viewControllers" id="j0G-N1-Q0w"/>
+                        <segue destination="vDA-Ek-qi8" kind="relationship" relationship="viewControllers" id="wNa-jr-8DY"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hUc-Rb-xTt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -403,6 +406,7 @@
     </scenes>
     <resources>
         <image name="house10" width="1200" height="675"/>
+        <image name="message" catalog="system" width="128" height="113"/>
         <image name="rectangle.3.group" catalog="system" width="128" height="81"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

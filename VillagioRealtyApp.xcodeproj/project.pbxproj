@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5C9C40F828CE06F900CE5B1E /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9C40F428CE06F900CE5B1E /* ChatViewController.swift */; };
-		5C9C40F928CE06F900CE5B1E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9C40F528CE06F900CE5B1E /* LoginViewController.swift */; };
 		5C9C40FA28CE06F900CE5B1E /* ChatVC+TableViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9C40F628CE06F900CE5B1E /* ChatVC+TableViewDelegates.swift */; };
 		5C9C40FB28CE06F900CE5B1E /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9C40F728CE06F900CE5B1E /* MessageCell.swift */; };
 		5C9C40FD28CE071000CE5B1E /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9C40FC28CE071000CE5B1E /* Message.swift */; };
@@ -25,7 +24,6 @@
 
 /* Begin PBXFileReference section */
 		5C9C40F428CE06F900CE5B1E /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
-		5C9C40F528CE06F900CE5B1E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5C9C40F628CE06F900CE5B1E /* ChatVC+TableViewDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ChatVC+TableViewDelegates.swift"; sourceTree = "<group>"; };
 		5C9C40F728CE06F900CE5B1E /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		5C9C40FC28CE071000CE5B1E /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				5C9C40F428CE06F900CE5B1E /* ChatViewController.swift */,
-				5C9C40F528CE06F900CE5B1E /* LoginViewController.swift */,
 				5C9C40F628CE06F900CE5B1E /* ChatVC+TableViewDelegates.swift */,
 				5C9C40F728CE06F900CE5B1E /* MessageCell.swift */,
 			);
@@ -207,7 +204,6 @@
 				B772A8E928C7E83800D118BE /* CustomTableViewCell.swift in Sources */,
 				FDB408C628CB381E00F12DB6 /* HouseDetailViewController.swift in Sources */,
 				5C9C40F828CE06F900CE5B1E /* ChatViewController.swift in Sources */,
-				5C9C40F928CE06F900CE5B1E /* LoginViewController.swift in Sources */,
 				5C9C40FD28CE071000CE5B1E /* Message.swift in Sources */,
 				B7CA42DD28C7BCF4005AA76B /* ShowCaseViewController.swift in Sources */,
 				B7CA42D928C7BCF4005AA76B /* AppDelegate.swift in Sources */,
