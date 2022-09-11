@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,124 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Members_Of_The_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Us" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RiP-qa-Nj6">
+                                <rect key="frame" x="100" y="50" width="120" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.85882353779999998" green="0.82745099070000006" blue="0.78823530669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Илья – знает всё в деталях @ilya88" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="389-wH-wSz">
+                                <rect key="frame" x="140" y="324.5" width="165" height="95"/>
+                                <color key="backgroundColor" red="0.47843140360000003" green="0.44313728810000003" blue="0.41176474089999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="165" id="IJ1-eB-vGV"/>
+                                    <constraint firstAttribute="height" constant="95" id="KQ4-pz-KJK"/>
+                                </constraints>
+                                <color key="textColor" red="0.85882353779999998" green="0.82745099070000006" blue="0.78823530669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Данияр" translatesAutoresizingMaskIntoConstraints="NO" id="Obt-65-LAt" userLabel="First Image View">
+                                <rect key="frame" x="15" y="110.5" width="126" height="95"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="126" id="HhX-wV-Bko"/>
+                                    <constraint firstAttribute="height" constant="95" id="N2c-Ye-MWv"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Рома" translatesAutoresizingMaskIntoConstraints="NO" id="fbr-FD-BSi" userLabel="Second Image View">
+                                <rect key="frame" x="15" y="217.5" width="126" height="95"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="126" id="Csa-ay-WrW"/>
+                                    <constraint firstAttribute="height" constant="95" id="jLp-Qj-3uc"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Илья" translatesAutoresizingMaskIntoConstraints="NO" id="qdy-vA-gfQ" userLabel="Third Image View">
+                                <rect key="frame" x="15" y="324.5" width="126" height="95"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="95" id="L90-kc-PeH"/>
+                                    <constraint firstAttribute="width" constant="126" id="ZsS-5t-afN"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Петя" translatesAutoresizingMaskIntoConstraints="NO" id="g5j-6s-6yS" userLabel="Forth Image View">
+                                <rect key="frame" x="15" y="431.5" width="126" height="95"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="126" id="Pcb-pU-gmp"/>
+                                    <constraint firstAttribute="height" constant="95" id="zBb-rj-wc8"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Данияр – генератор идей https://t.me/m1_nevermind" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="f3B-8j-ipo">
+                                <rect key="frame" x="140" y="110.5" width="165" height="95"/>
+                                <color key="backgroundColor" red="0.47843140360000003" green="0.44313728810000003" blue="0.41176474089999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="165" id="vK5-Fk-QJs"/>
+                                </constraints>
+                                <color key="textColor" red="0.85882353779999998" green="0.82745099070000006" blue="0.78823530669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Роман – мастер ГитХаба https://t.me/extrimeroman" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="8sy-ce-UT8">
+                                <rect key="frame" x="140" y="217.5" width="165" height="95"/>
+                                <color key="backgroundColor" red="0.47843140360000003" green="0.44313728810000003" blue="0.41176474089999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="95" id="0RV-ik-qeI"/>
+                                    <constraint firstAttribute="width" constant="165" id="PD2-Cs-KNh"/>
+                                </constraints>
+                                <color key="textColor" red="0.85882353779999998" green="0.82745099070000006" blue="0.78823530669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Петр – на подхвате https://t.me/ChottoMatteKudosai" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="gT7-i1-b9l">
+                                <rect key="frame" x="140" y="431.5" width="165" height="95"/>
+                                <color key="backgroundColor" red="0.47843140360000003" green="0.44313728810000003" blue="0.41176474089999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="165" id="B6w-N0-afZ"/>
+                                    <constraint firstAttribute="height" constant="95" id="eJc-te-w0B"/>
+                                </constraints>
+                                <color key="textColor" red="0.85882353779999998" green="0.82745099070000006" blue="0.78823530669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.47843140360000003" green="0.44313728810000003" blue="0.41176474089999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RiP-qa-Nj6" secondAttribute="trailing" constant="100" id="5iG-U4-IL5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gT7-i1-b9l" secondAttribute="trailing" constant="15" id="6pk-K3-M2h"/>
+                            <constraint firstItem="g5j-6s-6yS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="84R-LA-K9S"/>
+                            <constraint firstItem="RiP-qa-Nj6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="8JB-xy-x1O"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8sy-ce-UT8" secondAttribute="trailing" constant="15" id="ARC-fN-kp8"/>
+                            <constraint firstItem="389-wH-wSz" firstAttribute="top" secondItem="8sy-ce-UT8" secondAttribute="bottom" constant="12" id="Aml-vr-zAy"/>
+                            <constraint firstItem="f3B-8j-ipo" firstAttribute="top" secondItem="RiP-qa-Nj6" secondAttribute="bottom" constant="40" id="Aqa-Y2-e0F"/>
+                            <constraint firstItem="f3B-8j-ipo" firstAttribute="centerY" secondItem="Obt-65-LAt" secondAttribute="centerY" id="Bem-3x-hHb"/>
+                            <constraint firstItem="Obt-65-LAt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="IZ4-Tf-s4W"/>
+                            <constraint firstItem="qdy-vA-gfQ" firstAttribute="top" secondItem="fbr-FD-BSi" secondAttribute="bottom" constant="12" id="K3w-o3-xQC"/>
+                            <constraint firstItem="fbr-FD-BSi" firstAttribute="top" secondItem="Obt-65-LAt" secondAttribute="bottom" constant="12" id="LKp-tb-4cE"/>
+                            <constraint firstItem="RiP-qa-Nj6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="P49-PB-YXD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="389-wH-wSz" secondAttribute="trailing" constant="15" id="PYc-a7-cTc"/>
+                            <constraint firstItem="Obt-65-LAt" firstAttribute="top" secondItem="RiP-qa-Nj6" secondAttribute="bottom" constant="40" id="bJT-re-jJA"/>
+                            <constraint firstItem="fbr-FD-BSi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="erY-nq-U4L"/>
+                            <constraint firstItem="qdy-vA-gfQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="exw-FK-UaB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="f3B-8j-ipo" secondAttribute="trailing" constant="15" id="g2d-2q-8Ux"/>
+                            <constraint firstItem="g5j-6s-6yS" firstAttribute="top" secondItem="qdy-vA-gfQ" secondAttribute="bottom" constant="12" id="nBc-Xf-chc"/>
+                            <constraint firstItem="gT7-i1-b9l" firstAttribute="top" secondItem="389-wH-wSz" secondAttribute="bottom" constant="12" id="vpA-yj-s5r"/>
+                            <constraint firstItem="8sy-ce-UT8" firstAttribute="top" secondItem="f3B-8j-ipo" secondAttribute="bottom" constant="12" id="ygl-Jz-rUj"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="18.75" y="83.450704225352112"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Данияр" width="640" height="640"/>
+        <image name="Илья" width="640" height="640"/>
+        <image name="Петя" width="640" height="640"/>
+        <image name="Рома" width="640" height="640"/>
+    </resources>
 </document>
