@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rkL-H0-6QD">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,15 +13,15 @@
             <objects>
                 <tableViewController id="aXs-yI-xlk" customClass="ShowCaseViewController" customModule="VillagioRealtyApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="500" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="RSk-NT-IG3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="showCase" rowHeight="718" id="rtQ-Ju-BDj" customClass="CustomTableViewCell" customModule="VillagioRealtyApp" customModuleProvider="target">
-                                <rect key="frame" x="16" y="49.5" width="343" height="718"/>
+                                <rect key="frame" x="16" y="49.5" width="288" height="718"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rtQ-Ju-BDj" id="m50-vl-M6f" customClass="CustomTableViewCell" customModule="VillagioRealtyApp" customModuleProvider="target">
-                                    <rect key="frame" x="0.0" y="0.0" width="343" height="718"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="288" height="718"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="equalSpacing" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="goo-to-lDA">
@@ -81,7 +81,7 @@
             <objects>
                 <viewController id="vDA-Ek-qi8" customClass="ChatViewController" customModule="VillagioRealtyApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bhB-aB-VyS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="Oym-kx-Owy"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -91,18 +91,135 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ydv-zH-H0f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1534" y="744"/>
+            <point key="canvasLocation" x="802" y="743"/>
+        </scene>
+        <!--О Нас-->
+        <scene sceneID="cP2-T0-AJN">
+            <objects>
+                <viewController id="agS-CM-J83" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0zx-0U-8QQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Наша Команда" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LT0-5F-bA9">
+                                <rect key="frame" x="100" y="35" width="120" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.85882353779999998" green="0.82745099070000006" blue="0.78823530669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Данияр" translatesAutoresizingMaskIntoConstraints="NO" id="C9x-Vx-LEG">
+                                <rect key="frame" x="15" y="76" width="126" height="95"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="95" id="HFp-Z5-Siw"/>
+                                    <constraint firstAttribute="width" constant="126" id="StD-H5-Tbb"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Рома" translatesAutoresizingMaskIntoConstraints="NO" id="7df-Iw-JJ8">
+                                <rect key="frame" x="15" y="183" width="126" height="95"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="126" id="KB0-Ex-7VJ"/>
+                                    <constraint firstAttribute="height" constant="95" id="dx1-4l-PZP"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Илья" translatesAutoresizingMaskIntoConstraints="NO" id="0II-mz-PEE">
+                                <rect key="frame" x="15" y="290" width="126" height="95"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="95" id="9IP-iQ-Xa7"/>
+                                    <constraint firstAttribute="width" constant="126" id="mvU-7i-cHC"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Петя" translatesAutoresizingMaskIntoConstraints="NO" id="wt7-ho-64h">
+                                <rect key="frame" x="15" y="397" width="126" height="95"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="126" id="36f-BZ-qog"/>
+                                    <constraint firstAttribute="height" constant="95" id="M3l-SI-1G2"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Роман – GitHub эксперт: https://t.me/extrimeroman" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="MBF-tP-Scr">
+                                <rect key="frame" x="130" y="183" width="165" height="95"/>
+                                <color key="backgroundColor" red="0.47843140360000003" green="0.44313728810000003" blue="0.41176474089999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="165" id="Sa2-LR-ig0"/>
+                                    <constraint firstAttribute="height" constant="95" id="pOm-i8-eSN"/>
+                                </constraints>
+                                <color key="textColor" red="0.85882353779999998" green="0.82745099070000006" blue="0.78823530669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Илья – знает всё в деталях: https://t.me/ilya88" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="NdO-k5-6Ti">
+                                <rect key="frame" x="130" y="290" width="165" height="95"/>
+                                <color key="backgroundColor" red="0.47843140360000003" green="0.44313728810000003" blue="0.41176474089999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="165" id="Edk-hW-wji"/>
+                                    <constraint firstAttribute="height" constant="95" id="hIM-4f-Ziv"/>
+                                </constraints>
+                                <color key="textColor" red="0.85882353779999998" green="0.82745099070000006" blue="0.78823530669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Петр – на подхвате: https://t.me/ChottoMatteKudosai" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="ZOB-KC-mgl">
+                                <rect key="frame" x="130" y="397" width="165" height="95"/>
+                                <color key="backgroundColor" red="0.47843140360000003" green="0.44313728810000003" blue="0.41176474089999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="95" id="32o-HT-kQt"/>
+                                    <constraint firstAttribute="width" constant="165" id="8F6-oP-N8h"/>
+                                </constraints>
+                                <color key="textColor" red="0.85882353779999998" green="0.82745099070000006" blue="0.78823530669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Данияр – генератор идей: https://t.me/m1_nevermind" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="BAa-od-txr">
+                                <rect key="frame" x="130" y="76" width="165" height="95"/>
+                                <color key="backgroundColor" red="0.47843140360000003" green="0.44313728810000003" blue="0.41176474089999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="165" id="O0o-Ob-duV"/>
+                                    <constraint firstAttribute="height" constant="95" id="qcQ-X6-pFw"/>
+                                </constraints>
+                                <color key="textColor" red="0.85882353779999998" green="0.82745099070000006" blue="0.78823530669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yOJ-j2-HWD"/>
+                        <color key="backgroundColor" red="0.47843140360000003" green="0.44313728810000003" blue="0.41176474089999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="ZOB-KC-mgl" firstAttribute="top" secondItem="NdO-k5-6Ti" secondAttribute="bottom" constant="12" id="1rC-pW-THr"/>
+                            <constraint firstItem="LT0-5F-bA9" firstAttribute="top" secondItem="yOJ-j2-HWD" secondAttribute="top" constant="35" id="7Dz-x4-EPH"/>
+                            <constraint firstItem="yOJ-j2-HWD" firstAttribute="trailing" secondItem="MBF-tP-Scr" secondAttribute="trailing" constant="25" id="987-Dn-9dU"/>
+                            <constraint firstItem="0II-mz-PEE" firstAttribute="top" secondItem="7df-Iw-JJ8" secondAttribute="bottom" constant="12" id="NQu-Si-VKw"/>
+                            <constraint firstItem="yOJ-j2-HWD" firstAttribute="trailing" secondItem="ZOB-KC-mgl" secondAttribute="trailing" constant="25" id="PSB-j6-RBD"/>
+                            <constraint firstItem="7df-Iw-JJ8" firstAttribute="leading" secondItem="yOJ-j2-HWD" secondAttribute="leading" constant="15" id="PVP-WR-HWZ"/>
+                            <constraint firstItem="yOJ-j2-HWD" firstAttribute="trailing" secondItem="NdO-k5-6Ti" secondAttribute="trailing" constant="25" id="Qtg-qU-uWX"/>
+                            <constraint firstItem="LT0-5F-bA9" firstAttribute="leading" secondItem="yOJ-j2-HWD" secondAttribute="leading" constant="100" id="Tq3-JD-rEy"/>
+                            <constraint firstItem="yOJ-j2-HWD" firstAttribute="trailing" secondItem="BAa-od-txr" secondAttribute="trailing" constant="25" id="U0t-rf-OX0"/>
+                            <constraint firstItem="yOJ-j2-HWD" firstAttribute="trailing" secondItem="LT0-5F-bA9" secondAttribute="trailing" constant="100" id="X2L-hy-pIC"/>
+                            <constraint firstItem="wt7-ho-64h" firstAttribute="leading" secondItem="yOJ-j2-HWD" secondAttribute="leading" constant="15" id="ZOp-Ll-Rb4"/>
+                            <constraint firstItem="wt7-ho-64h" firstAttribute="top" secondItem="0II-mz-PEE" secondAttribute="bottom" constant="12" id="a6n-rH-DLL"/>
+                            <constraint firstItem="7df-Iw-JJ8" firstAttribute="top" secondItem="C9x-Vx-LEG" secondAttribute="bottom" constant="12" id="azk-UK-40n"/>
+                            <constraint firstItem="BAa-od-txr" firstAttribute="top" secondItem="LT0-5F-bA9" secondAttribute="bottom" constant="20" id="cSh-I9-08e"/>
+                            <constraint firstItem="C9x-Vx-LEG" firstAttribute="top" secondItem="LT0-5F-bA9" secondAttribute="bottom" constant="20" id="gqC-Ot-82v"/>
+                            <constraint firstItem="MBF-tP-Scr" firstAttribute="top" secondItem="BAa-od-txr" secondAttribute="bottom" constant="12" id="kJM-nT-xW2"/>
+                            <constraint firstItem="NdO-k5-6Ti" firstAttribute="top" secondItem="MBF-tP-Scr" secondAttribute="bottom" constant="12" id="lp0-vU-JUa"/>
+                            <constraint firstItem="0II-mz-PEE" firstAttribute="leading" secondItem="yOJ-j2-HWD" secondAttribute="leading" constant="15" id="nEa-7A-nGA"/>
+                            <constraint firstItem="C9x-Vx-LEG" firstAttribute="leading" secondItem="yOJ-j2-HWD" secondAttribute="leading" constant="15" id="y6D-53-oID"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="О Нас" selectedImage="person.text.rectangle" catalog="system" id="U46-mn-haX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="caU-HQ-MEU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1511" y="744"/>
         </scene>
         <!--House Detail View Controller-->
         <scene sceneID="z9e-jk-lx8">
             <objects>
                 <viewController id="kOD-PU-OYh" customClass="HouseDetailViewController" customModule="VillagioRealtyApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fTp-aT-ePx">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyO-Z7-o23">
-                                <rect key="frame" x="158.5" y="91" width="58" height="23"/>
+                                <rect key="frame" x="131" y="91" width="58" height="23"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Deluxe">
                                         <attributes>
@@ -115,7 +232,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sfb-97-9lf">
-                                <rect key="frame" x="16" y="117.5" width="343" height="31.5"/>
+                                <rect key="frame" x="16" y="117.5" width="288" height="62.5"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Дом в современном стиле">
                                         <attributes>
@@ -128,7 +245,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="close" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NbF-qB-G3U">
-                                <rect key="frame" x="334" y="53" width="32" height="32"/>
+                                <rect key="frame" x="279" y="53" width="32" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="NbF-qB-G3U" secondAttribute="height" multiplier="1:1" id="mD9-kl-fFL"/>
                                 </constraints>
@@ -142,7 +259,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cvS-7z-kC3">
-                                <rect key="frame" x="118" y="571.5" width="139" height="33.5"/>
+                                <rect key="frame" x="90.5" y="472.5" width="139" height="33.5"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button">
                                     <attributedString key="attributedTitle">
@@ -160,10 +277,10 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="house10" translatesAutoresizingMaskIntoConstraints="NO" id="avj-xk-18G">
-                                <rect key="frame" x="16" y="159" width="343" height="194.5"/>
+                                <rect key="frame" x="16" y="190" width="288" height="48"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RPG-cA-nT9">
-                                <rect key="frame" x="114.5" y="395" width="146.5" height="31.5"/>
+                                <rect key="frame" x="87" y="279.5" width="146.5" height="31.5"/>
                                 <attributedString key="attributedText">
                                     <fragment content="85 481 000 руб">
                                         <attributes>
@@ -183,16 +300,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="151" translatesAutoresizingMaskIntoConstraints="NO" id="wYA-yg-flr">
-                                <rect key="frame" x="16" y="469.5" width="343" height="73"/>
+                                <rect key="frame" x="16" y="354" width="288" height="89.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Rlz-lu-wNz">
-                                        <rect key="frame" x="0.0" y="0.0" width="96" height="73"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="68.5" height="89.5"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Dvn-Zz-sFl">
-                                                <rect key="frame" x="0.0" y="0.0" width="74.5" height="29"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Dvn-Zz-sFl">
+                                                <rect key="frame" x="0.0" y="0.0" width="68.5" height="45.5"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6St-68-aGC">
-                                                        <rect key="frame" x="0.0" y="0.0" width="74.5" height="12"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6St-68-aGC">
+                                                        <rect key="frame" x="0.0" y="0.0" width="68.5" height="28.5"/>
                                                         <attributedString key="attributedText">
                                                             <fragment content="Площадь дома">
                                                                 <attributes>
@@ -204,8 +321,8 @@
                                                         </attributedString>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aLT-Ei-lru">
-                                                        <rect key="frame" x="0.0" y="12" width="56" height="17"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aLT-Ei-lru">
+                                                        <rect key="frame" x="0.0" y="28.5" width="56" height="17"/>
                                                         <attributedString key="attributedText">
                                                             <fragment content="2247 м2">
                                                                 <attributes>
@@ -219,10 +336,10 @@
                                                     </label>
                                                 </subviews>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="8oC-5Z-oQs">
-                                                <rect key="frame" x="0.0" y="44" width="53" height="29"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="8oC-5Z-oQs">
+                                                <rect key="frame" x="0.0" y="60.5" width="53" height="29"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yZc-GQ-66Z">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yZc-GQ-66Z">
                                                         <rect key="frame" x="0.0" y="0.0" width="32.5" height="12"/>
                                                         <attributedString key="attributedText">
                                                             <fragment content="Этажи">
@@ -235,7 +352,7 @@
                                                         </attributedString>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wQQ-Yd-Zhq">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wQQ-Yd-Zhq">
                                                         <rect key="frame" x="0.0" y="12" width="53" height="17"/>
                                                         <attributedString key="attributedText">
                                                             <fragment content="3 этажа">
@@ -253,7 +370,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="88r-dP-NxK">
-                                        <rect key="frame" x="247" y="0.0" width="96" height="73"/>
+                                        <rect key="frame" x="219.5" y="0.0" width="68.5" height="89.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="4V2-hI-hMG">
                                                 <rect key="frame" x="0.0" y="0.0" width="56.5" height="29"/>
@@ -287,10 +404,10 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="VaP-Qh-F4K">
-                                                <rect key="frame" x="0.0" y="44" width="94.5" height="29"/>
+                                                <rect key="frame" x="0.0" y="44" width="54" height="45.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n6T-RC-cxd">
-                                                        <rect key="frame" x="0.0" y="0.0" width="94.5" height="12"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="54" height="12"/>
                                                         <attributedString key="attributedText">
                                                             <fragment content="Посёлок">
                                                                 <attributes>
@@ -303,7 +420,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lRC-vq-YDs">
-                                                        <rect key="frame" x="0.0" y="12" width="94.5" height="17"/>
+                                                        <rect key="frame" x="0.0" y="12" width="54" height="33.5"/>
                                                         <attributedString key="attributedText">
                                                             <fragment content="Agalrob Estate">
                                                                 <attributes>
@@ -377,6 +494,7 @@
                     <connections>
                         <segue destination="yV8-An-wTR" kind="relationship" relationship="viewControllers" id="j0G-N1-Q0w"/>
                         <segue destination="vDA-Ek-qi8" kind="relationship" relationship="viewControllers" id="wNa-jr-8DY"/>
+                        <segue destination="agS-CM-J83" kind="relationship" relationship="viewControllers" id="Hqi-Vy-EBo"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hUc-Rb-xTt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -390,7 +508,7 @@
                     <tabBarItem key="tabBarItem" title="Витрина" image="rectangle.3.group" catalog="system" id="0fn-qm-R0f"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="gCq-jD-ybk">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <navigationBarAppearance key="standardAppearance"/>
                     </navigationBar>
@@ -407,7 +525,12 @@
     <resources>
         <image name="house10" width="1200" height="675"/>
         <image name="message" catalog="system" width="128" height="113"/>
+        <image name="person.text.rectangle" catalog="system" width="128" height="93"/>
         <image name="rectangle.3.group" catalog="system" width="128" height="81"/>
+        <image name="Данияр" width="640" height="640"/>
+        <image name="Илья" width="640" height="640"/>
+        <image name="Петя" width="640" height="640"/>
+        <image name="Рома" width="640" height="640"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
