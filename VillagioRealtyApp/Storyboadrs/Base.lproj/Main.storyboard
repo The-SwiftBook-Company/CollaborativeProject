@@ -204,7 +204,7 @@
                             <constraint firstItem="C9x-Vx-LEG" firstAttribute="leading" secondItem="yOJ-j2-HWD" secondAttribute="leading" constant="15" id="y6D-53-oID"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="О Нас" selectedImage="person.text.rectangle" catalog="system" id="U46-mn-haX"/>
+                    <tabBarItem key="tabBarItem" title="О Нас" image="person.text.rectangle" catalog="system" id="U46-mn-haX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="caU-HQ-MEU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -302,14 +302,14 @@
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="151" translatesAutoresizingMaskIntoConstraints="NO" id="wYA-yg-flr">
                                 <rect key="frame" x="16" y="354" width="288" height="89.5"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Rlz-lu-wNz">
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Rlz-lu-wNz">
                                         <rect key="frame" x="0.0" y="0.0" width="68.5" height="89.5"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Dvn-Zz-sFl">
-                                                <rect key="frame" x="0.0" y="0.0" width="68.5" height="45.5"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Dvn-Zz-sFl">
+                                                <rect key="frame" x="0.0" y="0.0" width="68.5" height="37.5"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6St-68-aGC">
-                                                        <rect key="frame" x="0.0" y="0.0" width="68.5" height="28.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6St-68-aGC">
+                                                        <rect key="frame" x="0.0" y="0.0" width="68.5" height="18.5"/>
                                                         <attributedString key="attributedText">
                                                             <fragment content="Площадь дома">
                                                                 <attributes>
@@ -321,8 +321,8 @@
                                                         </attributedString>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aLT-Ei-lru">
-                                                        <rect key="frame" x="0.0" y="28.5" width="56" height="17"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aLT-Ei-lru">
+                                                        <rect key="frame" x="0.0" y="18.5" width="56" height="19"/>
                                                         <attributedString key="attributedText">
                                                             <fragment content="2247 м2">
                                                                 <attributes>
@@ -336,11 +336,11 @@
                                                     </label>
                                                 </subviews>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="8oC-5Z-oQs">
-                                                <rect key="frame" x="0.0" y="60.5" width="53" height="29"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="8oC-5Z-oQs">
+                                                <rect key="frame" x="0.0" y="52.5" width="53" height="37"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yZc-GQ-66Z">
-                                                        <rect key="frame" x="0.0" y="0.0" width="32.5" height="12"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yZc-GQ-66Z">
+                                                        <rect key="frame" x="0.0" y="0.0" width="32.5" height="18.5"/>
                                                         <attributedString key="attributedText">
                                                             <fragment content="Этажи">
                                                                 <attributes>
@@ -352,8 +352,8 @@
                                                         </attributedString>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wQQ-Yd-Zhq">
-                                                        <rect key="frame" x="0.0" y="12" width="53" height="17"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wQQ-Yd-Zhq">
+                                                        <rect key="frame" x="0.0" y="18.5" width="53" height="18.5"/>
                                                         <attributedString key="attributedText">
                                                             <fragment content="3 этажа">
                                                                 <attributes>
